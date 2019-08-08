@@ -1,0 +1,182 @@
+
+#contact{
+    background-image: url("http://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/08/bgn-heading-06.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+.overlay{
+    background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+    opacity: .7;
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.mainhe{
+    text-align: center;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 3rem 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 15;
+    a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    h1{
+        padding: 30px 0;
+    }
+    a:hover{
+        color: rgb(221, 221, 221);
+        transition: .3s ease-in-out;
+    }
+}
+}
+.tcBorder{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        height: 15px;
+        width: 100%;
+        z-index: -5;
+        left: 0;
+        bottom: 10px;
+        background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+    }
+}
+#getin{
+    padding: 60px;
+
+    .cuwe{
+        p{
+            font-size: 60px;
+        }
+    }
+    .fa-map{
+        font-size: 50px;
+        color: #1976bc;
+    }
+    .fa-mobile-alt{
+        font-size: 50px;
+        color: #1976bc;
+    }
+    .fa-address-card{
+        font-size: 50px;
+        color: #1976bc;
+    }
+    .adres{
+        text-align: center;
+        span{
+            font-size: .875em;
+        }
+        
+        p{
+            font-size: 20px
+        }
+        i:hover{
+            color: black;
+            transition: .3s ease-in-out;
+        }
+    }
+}
+#mapinput{
+    padding: 50px;
+    .inputt{
+        width: 100%;
+        padding: 8px;
+        outline: none;
+        margin-bottom: 15px;
+    }
+    textarea{
+        resize: vertical;
+        line-height: inherit;
+        height: 130px;
+    }
+}
+    .mainbtn{
+        background: #1976bc;
+        color: white; 
+        width: 40%;
+        padding: 15px;
+        border: none;
+        outline: none;
+        position: relative;
+        transition: .2s ease-in-out;
+
+
+        z-index: 44;
+        &:hover{
+            transform: translateY(-5px);
+            &::after{
+                height: 100%;
+               
+                z-index: -11;
+            }
+        }
+            &::after{
+                content:'';
+                position: absolute;
+                bottom: 0;
+                height: 0;
+                transition: .2s ease;
+                width: 100%;
+                left: 0;
+                background: linear-gradient(to bottom,#1976bc 20%,#8dc645 100%);
+            }
+}
+#sub{
+    background-image: url('http://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/09/bgn-newsletter.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    color: white;
+    .inputtt{
+        padding: 12px;
+        margin-bottom: 15px;
+        width: 100%;
+        outline: none;
+    }
+    .subbtn{
+        background: #1976bc;
+        color: white;
+        padding: 9px;
+        width: 100%;
+        outline: none;
+        border: none;
+        position: relative;
+        z-index: 33;
+        &:hover{
+            &::after{
+                height: 100%;
+                z-index: -33;
+            }
+        }
+            &::after{
+                content:'';
+                position: absolute;
+                bottom: 0;
+                height: 0;
+                transition: .3s ease-in-out;
+                width: 100%;
+                left: 0;
+                background: linear-gradient(to bottom,#1976bc 20%,#8dc645 100%) !important;
+
+            }
+    }
+    .subdiv{
+        padding: 5rem;
+    }
+}
